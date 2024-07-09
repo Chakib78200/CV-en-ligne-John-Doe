@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4,
+strong {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #444;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-center-p {
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0 !important;
+}
+
+.background-service {
+    background: #fff !important;
+}
+
+.service {
+    background: #fff !important;
+    width: 360px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.service h3,
+.service p {
+    background-color: #fff !important;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.row-service {
+    background-color: transparent;
+    box-shadow: 0px 9px 30px 0 #fff;
+    margin-bottom: 20px;
+}
+
+.underline-dotted {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.icon {
+    color: #0d6efd;
+    font-size: 2em;
+
+}
+
+.icon-hover {
+    color: #0d6efd;
+    font-size: 2em;
+    transition: color 0.3s;
+}
+
+.icon-hover:hover {
+    color: #cde1f8;
+}
+
+.blue-underline {
+    text-decoration: underline;
+    text-decoration-color: #0d6efd;
+    text-underline-offset: 4px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .row {
+        justify-content: flex-start !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .row {
+        justify-content: flex-start !important;
+    }
+}

@@ -1,0 +1,136 @@
+h1,
+h2,
+h3,
+h4,
+strong {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #444;
+}
+
+.h1-center {
+    font-size: 40px !important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-fluid {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-hr-p {
+    display: block;
+    border-bottom: 4px solid blue;
+    width: 18%;
+    margin: 5px auto 40px auto;
+}
+
+.card-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row-blog {
+    background-color: transparent;
+    box-shadow: 0px 9px 30px 0 #fff;
+    margin-bottom: 20px;
+}
+
+.border-blog {
+    width: 100%;
+    background: #EEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.align-start-h2 {
+    text-align: start;
+    font-size: 32px !important;
+    margin-top: 20px;
+}
+
+.align-start-p {
+    text-align: start;
+    font-size: 17px !important;
+}
+
+.card .btn {
+    margin-top: 10px;
+}
+
+.gray-color {
+    background: #EEE;
+    margin-bottom: -1px;
+}
+
+.margin-p10 {
+    text-align: start;
+    padding-left: 20px !important;
+}
+
+.icon-margin {
+    margin-right: 8px;
+    color: blue;
+}
+
+.custom-color {
+    color: blue;
+}
+
+a #margin-lien {
+    margin-left: -455px !important;
+}
+
+a {
+    text-decoration: none !important;
+    ;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking-text {
+    animation: blink 1s infinite;
+}
+
+
+@media (max-width: 992px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}

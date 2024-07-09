@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+strong {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #444;
+}
+
+.github-profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+}
+
+.center-p-github {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 5px !important;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.no-uderline a {
+    text-decoration: none !important;
+}

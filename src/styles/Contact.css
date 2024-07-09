@@ -1,0 +1,235 @@
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+main {
+    background: #fff;
+}
+
+.container-background {
+    background: url('../images/Enveloppe.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container-background {
+    position: relative;
+}
+
+.container-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 105, 255, 0.5);
+    z-index: -1;
+}
+
+.main-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.center-h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.center-p {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.custom-hr-p {
+    display: inline-block;
+    position: relative;
+    width: 18%;
+    margin-bottom: 20px;
+}
+
+.custom-hr-p {
+    content: '';
+    display: block;
+    width: 18%;
+    border-bottom: 4px solid #0d6efd;
+    margin: 5px auto 40px auto;
+}
+
+.custom-hr-blue {
+    border: none;
+    border-top: 2px solid #0d6efd;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.icon-black {
+    color: #000;
+}
+
+.contact-column {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+.form-column {
+    order: 1;
+
+}
+
+.info-column {
+    order: 2;
+}
+
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 49%;
+    height: 0;
+    margin-top: 20px;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+@media (max-width: 470px) {
+    .custom-hr-p::after {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .center-p {
+        font-size: 1.2rem !important;
+    }
+
+    .custom-hr-p {
+        width: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-hr-p::after {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .center-p {
+        font-size: 1rem !important;
+    }
+
+    .map-responsive {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 49%;
+        height: 0;
+        margin-top: 20px;
+    }
+
+    .map-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .custom-hr-p {
+        width: 50%;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-hr-p::after {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .center-p {
+        font-size: 1rem !important;
+    }
+
+    .contact-columns {
+        flex-direction: column;
+    }
+
+    .map-responsive {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 80%;
+        height: 0;
+        margin-top: 20px;
+    }
+
+    .map-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .custom-hr-p {
+        width: 20%;
+
+    }
+}
