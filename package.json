@@ -2,7 +2,7 @@
   "name": "cv-en-ligne-john-doe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Chakib78200.github.io/CV-John-Doe/",
+  "homepage": "https://Chakib78200.github.io/CV-en-ligne-John-Doe",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -18,6 +18,7 @@ import EspaceBienEtre from './components/EspaceBienEtre';
 import CoderSonSite from './components/CoderSonSite';
 import VendreSesProduits from './components/VendreSesProduits';
 import PositionGoogle from './components/PositionGoogle';
+import NotFound from './components/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -35,10 +36,26 @@ const specialOffset = 380;
 const AppContent = () => {
   const location = useLocation();
   const isGitHubProfile = location.pathname === "/github-profile";
+  const isNotFound = ![
+    "/",
+    "/about",
+    "/services",
+    "/realisation",
+    "/blog",
+    "/contact",
+    "/legal",
+    "/github-profile",
+    "/freshfood",
+    "/restaurantakira",
+    "/espacebienetre",
+    "/codersonsite",
+    "/vendresesproduits",
+    "/positiongoogle",
+  ].includes(location.pathname.toLowerCase());
 
   return (
     <>
-      {!isGitHubProfile && <Header />}
+      {!isGitHubProfile && !isNotFound && <Header />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -54,8 +71,9 @@ const AppContent = () => {
         <Route path="/codersonsite" element={<CoderSonSite />} />
         <Route path="/vendresesproduits" element={<VendreSesProduits />} />
         <Route path="/positiongoogle" element={<PositionGoogle />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-      {!isGitHubProfile && <Footer />}
+      {!isGitHubProfile && !isNotFound && <Footer />}
     </>
   );
 };

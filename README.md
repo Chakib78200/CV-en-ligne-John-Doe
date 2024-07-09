@@ -338,7 +338,8 @@ react: La bibliothèque principale de React, nécessaire pour la création d'int
 axios: Utilisé pour effectuer des requêtes HTTP vers l'API GitHub et gérer les réponses.
 react-helmet: Pour gérer les métadonnées du document HTML, assurant ainsi un bon référencement et une meilleure accessibilité.
 
-Accéder GitHubProfile à l'adresse suivant "(http://localhost:3000/github-profile)".
+Accéder GitHubProfile à l'adresse suivant "http://localhost:3000/github-profile" en local
+Accéder GitHubProfile à l'adresse suivant "https://chakib78200.github.io/CV-en-ligne-John-Doe/#/github-profile" Hebergé par GitHub
 *****************************************************************************************************************************************
 
 #Composant ProgressBar de l'Application React
