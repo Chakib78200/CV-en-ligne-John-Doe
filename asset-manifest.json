@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV-en-ligne-John-Doe/static/css/main.9ba81c9e.css",
-    "main.js": "/CV-en-ligne-John-Doe/static/js/main.425d42ef.js",
+    "main.css": "/CV-en-ligne-John-Doe/static/css/main.bfdbe074.css",
+    "main.js": "/CV-en-ligne-John-Doe/static/js/main.f6a12a28.js",
     "static/media/Enveloppe.jpg": "/CV-en-ligne-John-Doe/static/media/Enveloppe.0c9879b0db2a9fe5a00e.jpg",
     "static/media/Profil Compétences.jpg": "/CV-en-ligne-John-Doe/static/media/Profil Compétences.fffea6c199205047e13d.jpg",
     "static/media/Fresh Food.jpg": "/CV-en-ligne-John-Doe/static/media/Fresh Food.a0b1e2835e382ce1955e.jpg",
@@ -18,11 +18,11 @@
     "static/media/Apprendre.jpg": "/CV-en-ligne-John-Doe/static/media/Apprendre.65b0e30d76e40592f9c7.jpg",
     "static/media/Espace bien-être.jpg": "/CV-en-ligne-John-Doe/static/media/Espace bien-être.79a7971cd907b855a9ef.jpg",
     "index.html": "/CV-en-ligne-John-Doe/index.html",
-    "main.9ba81c9e.css.map": "/CV-en-ligne-John-Doe/static/css/main.9ba81c9e.css.map",
-    "main.425d42ef.js.map": "/CV-en-ligne-John-Doe/static/js/main.425d42ef.js.map"
+    "main.bfdbe074.css.map": "/CV-en-ligne-John-Doe/static/css/main.bfdbe074.css.map",
+    "main.f6a12a28.js.map": "/CV-en-ligne-John-Doe/static/js/main.f6a12a28.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ba81c9e.css",
-    "static/js/main.425d42ef.js"
+    "static/css/main.bfdbe074.css",
+    "static/js/main.f6a12a28.js"
   ]
 }
