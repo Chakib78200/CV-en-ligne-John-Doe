@@ -12,8 +12,8 @@ const ProgressBar = ({ skill, percentage, color }) => {
                     style={{ width: `${percentage}%`, backgroundColor: color }}
                     aria-valuenow={percentage}
                     aria-valuemin="0"
-                    aria-valuemax="100"
-                ></div>
+                    aria-valuemax="100">
+                </div>
             </div>
         </div>
     );
