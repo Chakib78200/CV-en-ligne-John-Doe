@@ -98,27 +98,9 @@ p {
     transform: translateX(-50%);
 }
 
-.footer-bottom p,
-.footer-bottom a {
+.footer-bottom p {
     color: #fff;
     text-decoration: none;
-}
-
-.footer-bottom a:hover {
-    color: #fff;
-}
-
-.back-to-top {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.footer-bottom a.back-to-top {
-    display: inline-block;
-    margin-top: 10px;
 }
 
 .back-to-top-container {

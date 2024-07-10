@@ -24,6 +24,10 @@ const Footer = () => {
         };
     }, []);
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <footer>
             <Helmet>
@@ -80,8 +84,8 @@ const Footer = () => {
                 <p>&copy; Designed by John Doe</p>
             </div>
             {showBackToTop && (
-                <div className="back-to-top-container">
-                    <a href="#top" className="back-to-top"><FontAwesomeIcon icon={faCircleUp} beat className="backtotop-hover" /></a>
+                <div className="back-to-top-container" onClick={scrollToTop}>
+                    <FontAwesomeIcon icon={faCircleUp} beat className="backtotop-hover" />
                 </div>
             )}
         </footer>
